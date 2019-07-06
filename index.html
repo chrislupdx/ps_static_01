@@ -7,15 +7,24 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
   </head>
+  <body>
 
+  <nav>
+    <div class="nav-wrapper #00acc1 cyan darken-1 z-depth-1 ">
+      <ul class="left hide-on-med-and-down">
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">I've Built</a></li>
+        <li><a href="#">I Like Using</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<body>
   <main>
     <div class="container">
       <div class="row">
         <div class="col s2 Aboutme">
-              <h4>About:</h4>
-          <div class="#ffe0b2 orange lighten-4">
+              <h5>About:</h5>
+          <div class="#e0f7fa cyan lighten-5">
             <p>Commits : XX</p>
             <p>Hours of [spotify]:xx </p>
             <p>Units of [caffeine logo]:xx OOOh </p>
@@ -25,53 +34,55 @@
         </div>
 
     <div class="col s6 Mywork" >
-      <h4>I've built:</h4>
+      <h5>I've built:</h5>
         <ul class="collection">
-
-
-            <li class="collection-item">
+            <li class="collection-item avatar">
+              <img src="assets/logo.png">
               <div><a href="#">LFW</a>
                 <div class="secondary-content">
                   A CRM for JobSeekers
                 </div>
               </div>
+              <p>Built with Django and a SQL server, this job tracker visuualized data </p>
             </li>
-            <li class="collection-item">
+            <li class="collection-item avatar">
+              <img src="assets/logo.png">
               <div><a href="#">Fixr</a>
                 <div class="secondary-content">
-                  A URL Shortener
-                </div>
+                    A URL Shortener
+                  </div>
               </div>
+              <p>Built off of the MERN stack, it hashes URLs with md5 </p>
             </li>
-            <li class="collection-item">
+            <li class="collection-item avatar">
+              <img src="assets/logo.png">
               <div><a href="#">HaikuBot</a>
                 <div class="secondary-content">
-                  Haiku-spewing twitterbot
-                </div>
+                    Haiku-spewing twitterbot
+                  </div>
               </div>
+              <p>A node web service that uses Twitter as it's front-end</p>
             </li>
-            <li class="collection-item">
+            <li class="collection-item avatar">
+              <img src="assets/logo.png">
               <div><a href="#">Camp_Drems</a>
                 <div class="secondary-content">
-                  All-in-One Hiking Planner
-                </div>
+                    All-in-One Hiking Planner
+                  </div>
               </div>
+              <p>Built on Vanilla JS, it's a location-based app that helps hikers with their every need</p>
             </li>
-
-
-
         </ul>
           </div>
 
     <div class="Learning col s3" >
-      <h4>I'm learning:</h4>
-        <div class = "#ffe0b2 orange lighten-4">
-        <p>ReactJS</p>
-        <p>Redux</p>
-        <p>Webpack</p>
-        <p>Babel</p>
-        <p>AWS Developer Cert</p>
-      </div>
+      <h5>I like using:</h5>
+      <ul class="collection">
+          <li class="collection-item">ReactJS</li>
+          <li class="collection-item">Redux</li>
+          <li class="collection-item">WebPack</li>
+          <li class="collection-item">Babel</li>
+      </ul>
     </div>
   </div>
 </div>

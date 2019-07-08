@@ -6,30 +6,34 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
-
   </head>
-  <body>
 
-  <main>
-    <div class="container">
-      <h3>Hi, I'm Chris</h3>
-      <h5>I've been building things with JavaScript</h5>
-      <div class="row">
-        <div class="col s2 Aboutme">
-              <h5>About:</h5>
-          <div class="#e0f7fa cyan lighten-5 z-depth-1">
-            <p>Commits : XX</p>
-            <p>Hours of [spotify]:xx </p>
-            <p>Units of [caffeine logo]:xx OOOh </p>
-            <p>Hours slept: xx  </p>
-            <p>Hours spent on Udemy: xx </p>
+  <body>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h3>Hi, I'm Chris</h3>
+            <h5>I've been building things with JavaScript</h5>
           </div>
         </div>
 
-    <div class="col s6 Mywork" >
+      <div class="row">
+
+        <div class="col s3 Aboutme">
+              <h5>About:</h5>
+            <ul class="collection z-depth-1">
+                <li class="collection-item">Commits : XX</li>
+                <li class="collection-item">Hours of [spotify]:xx</li>
+                <li class="collection-item">Units of [caffeine logo]:xx OOOh</li>
+                <li class="collection-item">Hours slept: xx </li>
+            </ul>
+        </div>
+
+    <div class="col s5 Mywork">
       <h5>I've built:</h5>
         <ul class="collection z-depth-1">
-            <li class="collection-item avatar">
+            <li class="collection-item">
               <div><a href="#">LFW</a>
                 <div class="secondary-content">
                   A CRM for JobSeekers
@@ -37,24 +41,27 @@
               </div>
               <p>Built with Django and a SQL server, this job tracker visuualized data </p>
             </li>
-            <li class="collection-item avatar">
-              <div><a href="#">Fixr</a>
+            <li class="collection-item">
+              <div>
+                <a href="#">Fixr</a>
                 <div class="secondary-content">
                     A URL Shortener
                   </div>
               </div>
               <p>Built off of the MERN stack, it hashes URLs with md5 </p>
             </li>
-            <li class="collection-item avatar">
-              <div><a href="#">HaikuBot</a>
-                <div class="secondary-content">
+            <li class="collection-item">
+              <div>
+                <a href="#">HaikuBot</a>
+                <div class="secondary-content ">
                     Haiku-spewing twitterbot
                   </div>
               </div>
               <p>A node web service that uses Twitter as it's front-end</p>
             </li>
-            <li class="collection-item avatar">
-              <div><a href="#">Camp_Drems</a>
+            <li class="collection-item">
+              <div>
+                  <a href="#">Camp_Drems</a>
                 <div class="secondary-content">
                     All-in-One Hiking Planner
                   </div>
@@ -62,9 +69,8 @@
               <p>Built on Vanilla JS, it's a location-based app that helps hikers with their every need</p>
             </li>
         </ul>
-          </div>
-
-    <div class="Learning col s3" >
+      </div>
+    <div class="Learning col s4" >
       <h5>I like using:</h5>
       <ul class="collection z-depth-1">
           <li class="collection-item">ReactJS</li>
@@ -72,7 +78,6 @@
           <li class="collection-item">WebPack</li>
           <li class="collection-item">Babel</li>
       </ul>
-
       <h5>Services I enjoy: </h5>
         <ul class="collection z-depth-1">
           <li class="collection-item">FireBase</li>
@@ -83,33 +88,31 @@
         </ul>
     </div>
   </div>
+  
+  </div>
+
 </div>
 </main>
-<div class="container">
-    <div class="row">
-      <div class="Getintouch">
-
-  <a class="waves-effect waves-light btn #00acc1 cyan darken-1" href="https://www.canva.com/design/DADIzTKbvR4/ISRU9DlmdsFvsrbEc9_0yg/edit">
-    resume
-  </a>
-
-  <a class="waves-effect waves-light btn #00acc1 cyan darken-1" href="">
-    <i class="material-icons">
-    email
-  </i></a>
-
-  <a class="waves-effect waves-light btn #00acc1 cyan darken-1" href="">
-    LinkedIn
-  </a>
-
-  <a class="waves-effect waves-light btn #00acc1 cyan darken-1" href="http://github.com/chrislupdx">
-    GitHub
-  </a>
-
-</div>
-  </div>
-    </div>
 </body>
+<footer>
+    <div class="row">
+      <div class="Buttons col s12 offset-m7">
+        <a class="waves-effect waves-light btn #00acc1 cyan darken-1" href="https://www.canva.com/design/DADIzTKbvR4/ISRU9DlmdsFvsrbEc9_0yg/edit">
+          resume
+        </a>
+        <a class="waves-effect waves-light btn #00acc1 cyan darken-1" href="">
+          <i class="material-icons">
+            email
+          </i></a>
+          <a class="waves-effect waves-light btn #00acc1 cyan darken-1" href="">
+            LinkedIn
+          </a>
+          <a class="waves-effect waves-light btn #00acc1 cyan darken-1" href="http://github.com/chrislupdx">
+            GitHub
+          </a>
+        </div>
+      </div>
+</footer>
 
 <script type="module" src="./src/script.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>

@@ -26,8 +26,22 @@ body {
   align-items: center;
 }
 
+.subheader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .CTA {
   display: flex;
-  // flex-direction: column;
   justify-content: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }

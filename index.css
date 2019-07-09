@@ -1,0 +1,33 @@
+body {
+    // background-color: #020202;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .Buttons {
+    // display: flex;
+
+    // background-color: #020202;
+  }
+
+// .nav-wrapper {
+//   background-color: #ffffff;
+// }
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.CTA {
+  display: flex;
+  // flex-direction: column;
+  justify-content: center;
+}

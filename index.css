@@ -11,7 +11,6 @@ body {
 
   .Buttons {
     // display: flex;
-
     // background-color: #020202;
   }
 
@@ -44,4 +43,8 @@ footer {
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
+}
+.aboutme {
+  display: flex;
+  justify-content: flex-end;
 }

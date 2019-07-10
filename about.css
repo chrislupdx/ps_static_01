@@ -1,8 +1,8 @@
-.intro {
-    // background-color: #070606;
-    // flex: direction;
-    // display: flex;
-    // align-content: flex-start;
+body {
+    // background-color: #020202;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 footer {
@@ -11,4 +11,9 @@ footer {
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
-  }
+}
+
+.aboutme {
+    display: flex;
+    justify-content: flex-end;
+}

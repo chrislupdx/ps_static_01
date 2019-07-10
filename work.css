@@ -1,10 +1,12 @@
+.aboutme {
+    display: flex;
+    justify-content: flex-end;
+}
 body {
-    // background-color: #020202;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
-
 
 footer {
     position: fixed;

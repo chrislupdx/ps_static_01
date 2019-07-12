@@ -1,0 +1,31 @@
+.aboutme {
+    display: flex;
+    justify-content: flex-end;
+}
+.endbuttons {
+    display: flex;
+    // background-color: #000000;
+    justify-content: flex-end;
+}
+
+.projects {
+    display: flex;
+    justify-content: flex-start;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+
+

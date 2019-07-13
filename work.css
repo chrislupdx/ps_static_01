@@ -10,7 +10,9 @@
 
 .projects {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
+
+
 }
 
 .github {
@@ -20,7 +22,7 @@
     max-width:30px;
     height:auto;
 }
-..last {
+.last {
 
 }
 

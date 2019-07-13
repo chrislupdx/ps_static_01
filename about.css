@@ -12,6 +12,11 @@ footer {
     margin-bottom: 0px;
 }
 
+.circle {
+    max-width:60px;
+    height:auto;
+}
+
 .aboutme {
     display: flex;
     justify-content: flex-end;

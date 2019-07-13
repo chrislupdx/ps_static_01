@@ -38,9 +38,13 @@
                         <a class="sitebutton waves-effect waves-light btn-flat #00acc1 cyan darken-1" target="_blank" target="_blank" href="https://dazzling-hypatia-faeb78.netlify.com">
                             Site
                         </a>
-                        <a class="sitebutton waves-effect waves-light btn-flat #00acc1 cyan darken-1" target="_blank" href="https://github.com/chrislupdx/fp_back">
-                            Repo:
-                        </a>
+                        <a class='dropdown-trigger btn-flat #00acc1 cyan darken-1' href='#' data-target='dropdown1'>Repos:</a>
+                        <ul id='dropdown1' class='dropdown-content'>
+                            <li><a class="#00acc1 cyan darken-1 black-text" href="https://github.com/chrislupdx/fp_front" target="_blank">Front End:</a></li>
+                            <li class="divider"></li>
+                            <li><a class="#00acc1 cyan darken-1 black-text" href="https://github.com/chrislupdx/fp_back" target="_blank">Back End:</a></li>
+                        </ul>
+
                 </div>
             </div>
         </div>
@@ -90,6 +94,7 @@
         </div>
 
     </div>
+    <script type="module" src="src/work.js"></script>
 </body>
 
 <footer>
@@ -109,7 +114,7 @@
     </footer>
 </html>
 
-<script type="module" src="./src/script.js"></script>
+<script type="module" src="./src/work.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
 <!-- Compiled and minified CSS -->

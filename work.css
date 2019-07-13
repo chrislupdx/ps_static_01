@@ -13,19 +13,30 @@
     justify-content: flex-start;
 }
 
+.github {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    max-width:30px;
+    height:auto;
+}
+..last {
+
+}
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
 
-footer {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-}
+// footer {
+//     position: fixed;
+//     bottom: 0px;
+//     left: 0px;
+//     right: 0px;
+//     margin-bottom: 0px;
+// }
 
 
 

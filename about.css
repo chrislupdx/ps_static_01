@@ -12,9 +12,10 @@ footer {
     margin-bottom: 0px;
 }
 
-.circle {
-    max-width:60px;
-    height:auto;
+#circle {
+    position: sticky;
+    border-radius: 100%;
+    width: auto;
 }
 
 .aboutme {
